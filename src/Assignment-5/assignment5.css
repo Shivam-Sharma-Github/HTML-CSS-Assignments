@@ -5,3 +5,58 @@
 width: 100%;
 height: 100%;
 }
+
+body {	
+	background-color: lightgrey;
+}
+	
+.card {
+	display: flex;
+	background-color: white;
+	margin: 50px 40px;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.card div {
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	padding-bottom: 50px;
+}
+	
+.img-content {
+	background-color: lightgreen;
+}
+	
+#plant-1 {
+	margin-top: -70px;
+	margin-left: -30px;	
+}
+
+#plant-4 {
+	margin: 0px -30px;
+}
+	
+h1 {
+	font-size: 2em;
+}
+	
+p {
+	font-size: 1.3em;
+}
+	
+.text-content {
+	justify-content: center;
+	margin: 0px 50px;
+}
+	
+button {
+	background-color: lightgreen;
+	padding: 10px 30px;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin: 10px;
+	color: white;
+}
